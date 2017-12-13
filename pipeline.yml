@@ -28,7 +28,7 @@ resources:
       username: {{github_user}}
 
 jobs:
-  - name: docker-winston-release
+  - name: docker-release
     serial: true
     plan:
       - get: docker-repo
